@@ -16,7 +16,7 @@
 		38737EE6268EAA5000AECE4C /* api_tmdbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38737EE5268EAA5000AECE4C /* api_tmdbTests.swift */; };
 		38737EF1268EAA5000AECE4C /* api_tmdbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38737EF0268EAA5000AECE4C /* api_tmdbUITests.swift */; };
 		38737F00268EB35B00AECE4C /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38737EFF268EB35B00AECE4C /* ApiRequest.swift */; };
-		38737F02268EB36F00AECE4C /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38737F01268EB36F00AECE4C /* Movies.swift */; };
+		CD9DF38A268F9C1E00C10082 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9DF389268F9C1E00C10082 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		38737EF0268EAA5000AECE4C /* api_tmdbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api_tmdbUITests.swift; sourceTree = "<group>"; };
 		38737EF2268EAA5000AECE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38737EFF268EB35B00AECE4C /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
-		38737F01268EB36F00AECE4C /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		CD9DF389268F9C1E00C10082 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				38737EFF268EB35B00AECE4C /* ApiRequest.swift */,
-				38737F01268EB36F00AECE4C /* Movies.swift */,
+				CD9DF389268F9C1E00C10082 /* Movie.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -272,11 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38737F02268EB36F00AECE4C /* Movies.swift in Sources */,
 				38737ED3268EAA4D00AECE4C /* ViewController.swift in Sources */,
 				38737ECF268EAA4D00AECE4C /* AppDelegate.swift in Sources */,
 				38737F00268EB35B00AECE4C /* ApiRequest.swift in Sources */,
 				38737ED1268EAA4D00AECE4C /* SceneDelegate.swift in Sources */,
+				CD9DF38A268F9C1E00C10082 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
